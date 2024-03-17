@@ -5,8 +5,8 @@ import praktikum.Bun;
 
 public class BunTest {
     private Bun bun;
-    private String name;
-    private float price;
+    private String name = "Burger";
+    private float price = 10.5F;
 
     @Before
     public void setUp() {
