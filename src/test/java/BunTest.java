@@ -1,17 +1,11 @@
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 import praktikum.Bun;
 
 public class BunTest {
-    private Bun bun;
     private String name = "Burger";
     private float price = 10.5F;
-
-    @Before
-    public void setUp() {
-        bun = new Bun(name, price);
-    }
+    private Bun bun =  new Bun(name, price);
 
     @Test
     public void testGetName() {
